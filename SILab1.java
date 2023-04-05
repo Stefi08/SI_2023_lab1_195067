@@ -29,7 +29,7 @@ public class SILab1 {
         int n = sc.nextInt();
 
         List<Integer> list = new ArrayList<>();
-        //greskata e popravena vo bug1
+        
         for (int i = 1; i <= n; i++) {
             list.add(sc.nextInt());
         }
