@@ -14,6 +14,7 @@ public class SILab1 {
     }
 
     private static int sumEvenNumbers(List<Integer> list) {
+        //greskata e popravena vo bag3
         int sum = 0;
         for (Integer el : list) {
             if (el % 2 == 0) {
