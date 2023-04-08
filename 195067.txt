@@ -65,7 +65,7 @@ nothing to commit, working tree clean
 stefanija@DESKTOP-QO4NB7O MINGW64 ~ /e/finki/softversko/SI_2023_lab1_195067(master)
 $ git branch branch1
 
-   ---kreiranje na nova granka so ime branch1---
+   ----kreiranje na nova granka so ime branch1---
 
 stefanija@DESKTOP-QO4NB7O MINGW64 ~ /e/finki/softversko/SI_2023_lab1_195067(master)
 $ git branch branch2
