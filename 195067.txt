@@ -1,0 +1,71 @@
+stefanija@DESKTOP-QO4NB7O MINGW64 ~ (master)
+$ cd /e/finki/softversko
+
+---- vleguvanje vo folder---
+
+stefanija@DESKTOP-QO4NB7O MINGW64 ~ /e/finki/softversko
+$ git clone https://github.com/Stefi08/SI_2023_lab1_195067.git
+Cloning into 'SI_2023_lab1_195067'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done
+
+
+---kloniranje na repo--
+
+stefanija@DESKTOP-QO4NB7O MINGW64 ~ /e/finki/softversko
+$ cd /e/finki/softversko/SI_2023_lab1_195067
+
+--vleguvanje vo clone--
+
+stefanija@DESKTOP-QO4NB7O MINGW64 ~ /e/finki/softversko/SI_2023_lab1_195067(master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        shopping_list.txt
+
+    ---Dodavanje na untracked files---
+
+stefanija@DESKTOP-QO4NB7O MINGW64 ~ /e/finki/softversko/SI_2023_lab1_195067(master)
+$ git commit -m "Add 5 items to the shopping list"
+[master 053010a] Add 5 items to the shopping list
+ 1 file changed, 5 insertions(+)
+ create mode 100644 shopping_list.txt        
+
+  ---Commit na shopping_list.txt so poraka "Add 5 items to the shopping list" -m oznacuva message---
+
+
+stefanija@DESKTOP-QO4NB7O MINGW64 ~ /e/finki/softversko/SI_2023_lab1_195067(master)
+$ git add shopping_list.txt
+
+  ---Dodavanje na untracked files---
+
+stefanija@DESKTOP-QO4NB7O MINGW64 ~ /e/finki/softversko/SI_2023_lab1_195067(master)
+$ git commit -m "Add quantities to the items."
+[master baa9e77] Add quantities to the items.
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+-----(Commit na shopping_list.txt so poraka "Add quantities to the items.")-----
+
+stefanija@DESKTOP-QO4NB7O MINGW64 ~ /e/finki/softversko/SI_2023_lab1_195067(master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+  ---git status - proverka na sostojba, nemame nisto za commitnuvanje---
+
+stefanija@DESKTOP-QO4NB7O MINGW64 ~ /e/finki/softversko/SI_2023_lab1_195067(master)
+$ git branch branch1
+
+   ---kreiranje na nova granka so ime branch1---
+
+stefanija@DESKTOP-QO4NB7O MINGW64 ~ /e/finki/softversko/SI_2023_lab1_195067(master)
+$ git branch branch2
